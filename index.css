@@ -42,7 +42,7 @@
 }
 
 .hero-section {
-  margin: 90px 160px 0px 160px;
+  margin: 90px 155px 0px 155px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,11 +73,11 @@
 }
 
 .sign-up-button {
-  margin: 12px auto 0 0;
+  margin: 20px auto 0 0;
   background-color: #3882f6;
   border: none;
   border-radius: 5px;
-  padding: 8px 30px;
+  padding: 10px 30px;
   color: white;
   font-weight: 700;
   cursor: pointer;
@@ -94,9 +94,85 @@
   max-width: 500px;
 }
 
+.random-info-section {
+  height: 520px;
+}
+
+.random-info-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 40px;
+}
+
+.random-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.block-one,
+.block-two {
+  display: flex;
+  gap: 40px;
+}
+
+.info {
+  height: 280px;
+  max-width: 190px;
+  width: 190px;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-picture {
+  height: 63%;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+}
+
+.info-text {
+  flex: 1;
+  text-align: center;
+  margin-top: 10px;
+  color: #1f2937;
+  line-height: 20px;
+}
+
+.quote-section {
+  height: 500px;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-holder {
+  width: 870px;
+  padding: 0 20px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  line-height: 50px;
+}
+
+.quote-author {
+  text-align: end;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
 @media all and (max-width: 1266px) {
   .header-section {
-    height: 730px;
+    height: 770px;
   }
 
   .hero-text {
@@ -119,5 +195,12 @@
 @media all and (max-width: 952px) {
   .header-logo {
     margin: 0 auto 14px auto;
+    padding-left: 18px;
+  }
+
+  @media all and (max-width: 937px) {
+    .random-info-section {
+      height: 850px;
+    }
   }
 }
