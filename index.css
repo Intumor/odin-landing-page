@@ -170,6 +170,57 @@
   padding-right: 30px;
 }
 
+.call-to-action-section {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.call-to-action-holder {
+  background-color: #3882f6;
+  max-width: 1100px;
+  flex: 1 1 430px;
+  margin: 0 5px;
+  display: flex;
+  padding: 50px 130px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.call-to-action {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.call-to-signing-up {
+  color: white;
+  font-size: 16px;
+  padding-top: 4px;
+}
+
+.call-to-action-sign-up-button {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  height: 100px;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
 @media all and (max-width: 1266px) {
   .header-section {
     height: 770px;
@@ -192,15 +243,45 @@
   }
 }
 
+@media all and (max-width: 1256px) {
+  .hero-text {
+    height: 190px;
+  }
+}
+
+@media all and (max-width: 990px) {
+  .hero-text {
+    height: 250px;
+  }
+}
+
+@media all and (max-width: 970px) {
+  .call-to-action-holder {
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .call-to-action-text {
+    text-align: center;
+  }
+}
+
 @media all and (max-width: 952px) {
   .header-logo {
     margin: 0 auto 14px auto;
     padding-left: 18px;
   }
+}
 
-  @media all and (max-width: 937px) {
-    .random-info-section {
-      height: 850px;
-    }
+@media all and (max-width: 937px) {
+  .random-info-section {
+    height: 850px;
+  }
+}
+
+@media all and (max-width: 570px) {
+  .call-to-action-holder {
+    padding: 59px 80px;
   }
 }
